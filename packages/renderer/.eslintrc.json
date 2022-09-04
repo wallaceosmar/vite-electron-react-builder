@@ -5,7 +5,7 @@
   },
   "extends": [
     /** @see https://eslint.vuejs.org/rules/ */
-    "plugin:vue/vue3-recommended"
+    "plugin:react/recommended"
   ],
   "parserOptions": {
     "parser": "@typescript-eslint/parser",
@@ -14,7 +14,10 @@
   },
   "rules": {
     /** These rules are disabled because they are incompatible with prettier */
-    "vue/html-self-closing": "off",
-    "vue/singleline-html-element-content-newline": "off"
+  },
+  "settings": {
+    "react": {
+      
+    }
   }
 }

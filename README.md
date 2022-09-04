@@ -65,11 +65,11 @@ Vite provides many useful features, such as: `TypeScript`, `TSX/JSX`, `CSS/JSON 
 **[See this discussion](https://github.com/cawa-93/vite-electron-builder/discussions/339)** if you want completely
 remove TypeScript.
 
-### Vue [![Vue version](https://img.shields.io/github/package-json/dependency-version/cawa-93/vite-electron-builder/vue?label=%20&)][vue] (optional)
+### React [![React version](https://img.shields.io/github/package-json/dependency-version/cawa-93/vite-electron-builder/react?label=%20&)][react] (optional)
 
-- By default, web pages are built using [Vue]. However, you can easily change that. Or not use additional frameworks at
+- By default, web pages are built using [React]. However, you can easily change that. Or not use additional frameworks at
   all.
-- Code formatting rules follow the latest Vue recommendations and best practices thanks to [eslint-plugin-vue].
+- Code formatting rules follow the latest React recommendations and best practices thanks to [eslint-plugin-react].
 
 See [examples of web pages for different frameworks](https://github.com/vitejs/vite/tree/main/packages/create-vite).
 
@@ -280,19 +280,13 @@ See [Contributing Guide](contributing.md).
 
 [electron-builder]: https://github.com/electron-userland/electron-builder
 
-[vue]: https://github.com/vuejs/vue-next
-
-[vue-router]: https://github.com/vuejs/vue-router-next/
-
 [typescript]: https://github.com/microsoft/TypeScript/
 
 [playwright]: https://playwright.dev
 
 [vitest]: https://vitest.dev
 
-[vue-tsc]: https://github.com/johnsoncodehk/vue-tsc
-
-[eslint-plugin-vue]: https://github.com/vuejs/eslint-plugin-vue
+[eslint-plugin-react]: https://github.com/jsx-eslint/eslint-plugin-react
 
 [cawa-93-github]: https://github.com/cawa-93/
 
