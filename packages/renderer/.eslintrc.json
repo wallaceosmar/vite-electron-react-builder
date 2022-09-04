@@ -16,8 +16,6 @@
     /** These rules are disabled because they are incompatible with prettier */
   },
   "settings": {
-    "react": {
-      
-    }
+    "react": {}
   }
 }
